@@ -39,10 +39,9 @@
 [sendemail]
 	smtpencryption = tls
 [user]
-	name = Justin W. Flory
-	email = git@jwf.io
-	signingkey = 39E45FB6014131E4
+	name = John Julian
+	email = saxainden@gmail.com
+	signingkey = 4B97088E1AE239DC
 [includeIf "gitdir:~/git/jump/"]
   path = .gitconfig-jump
-[includeIf "gitdir:~/git/unicef/"]
-  path = .gitconfig-unicef
+

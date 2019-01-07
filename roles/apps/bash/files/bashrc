@@ -14,15 +14,6 @@ if [ -f "$PATH/task" ]; then
     source ~/.bash_completion.d/task.sh
 fi
 
-## -- powerline-go configuration ---------------------------
-# https://github.com/justjanne/powerline-go
-function _update_ps1() {
-    PS1="$($GOPATH/bin/powerline-go -error $?)"
-}
-if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
-
 
 # --- aliases ------------------------------------------------------------------
 
@@ -40,12 +31,3 @@ alias gitst='git short-status'
 alias gitsy='git sync-fork-master'
 alias gittr='git tree'
 
-alias gitd1='git dammit1'
-alias gitd2='git dammit2'
-alias gitd3='git dammit3'
-alias gitd4='git dammit4'
-alias gitd5='git dammit5'
-alias gitd6='git dammit6'
-alias gitd7='git dammit7'
-alias gitd8='git dammit8'
-alias gitd9='git dammit9'

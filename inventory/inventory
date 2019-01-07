@@ -1,19 +1,7 @@
-bryn.justinwflory.com
-cortana.justinwflory.com
-derezzed.justinwflory.com
-estrella.justinwflory.com
-fiction.justinwflory.com
-grantgreen.justinwflory.com
-horizon.justinwflory.com
+jpjvm.jkjp.com
 
 [workstation]
 127.0.0.1 ansible_connection=local
 
 [servers-centos]
-bryn
-cortana
-derezzed
-estrella
-fiction
-grantgreen
-horizon
+puppet-master.jkjp.com
